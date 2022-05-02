@@ -1,0 +1,6 @@
+.PHONY:run
+run:
+	go run cmd/moy_sklad/main.go
+.PHONY:build
+build:
+	go build cmd/moy_sklad/main.go
