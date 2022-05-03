@@ -5,6 +5,7 @@ import (
 	"github.com/Abdumalik92/moy_sklad_api/internal/pkg/controller/employee"
 	"github.com/Abdumalik92/moy_sklad_api/internal/pkg/utils"
 	"github.com/gin-gonic/gin"
+	"gopkg.in/natefinch/lumberjack.v2"
 	"io"
 	"log"
 	"os"
